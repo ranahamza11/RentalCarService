@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Rental Car Service</string>
+    <string name="car_renting_image">car renting image</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="all_fields_are_mandatory">All fields are mandatory!</string>
+    <string name="enter_name">Enter name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="label_main_screen">This app is for the managers to keep track of the rental cars</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="rent_a_car">Rent a Car</string>
+    <string name="currently_rented_cars_info">Currently Rented Cars Info</string>
+    <string name="previous_drivers_history">Previous Drivers History</string>
+    <string name="register_driver_info">Register Driver Info</string>
+    <string name="cnic_number">CNIC number</string>
+    <string name="address">Address</string>
+    <string name="phone_no">Phone No</string>
+    <string name="rented_car_name">Rented car name</string>
+    <string name="car_model_number">car model number</string>
+    <string name="register">Register</string>
+    <string name="label_driver">You can make call to the driver and see his location by the following buttons</string>
+    <string name="driver_name_is">Driver name is: %1$s </string>
+    <string name="all_previous_drivers_records">All previous drivers Records:</string>
+    <string name="go_back">Go Back</string>
+    <string name="log_out">Log out</string>
+    <string name="welcome_user">Welcome %1$s</string>
+</resources>

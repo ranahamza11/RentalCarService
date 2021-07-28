@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context=".uIBackend.RentCars">
+
+    <TextView
+        android:id="@+id/tv_dispaly_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:text="@string/welcome_user"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rent_cars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_round"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:text="@string/rent_a_car" />
+
+
+    <Button
+        android:id="@+id/btn_prev_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_round"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:text="@string/previous_drivers_history"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_btn_round"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="10dp"
+        android:text="@string/log_out" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/label_driver"
+        android:textSize="17sp"
+        tools:visibility="visible"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_driver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        tools:text="@string/driver_name_is"
+        android:textSize="17sp"
+        tools:visibility="visible"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        tools:visibility="visible"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_phone" />
+
+    <ImageView
+        android:id="@+id/iv_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        tools:visibility="visible"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_map" />
+
+
+</LinearLayout>

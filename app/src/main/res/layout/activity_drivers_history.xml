@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    tools:context=".uIBackend.DriversHistory">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_previous_drivers_records"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp" />
+
+
+        <TextView
+            android:id="@+id/tv_display_prev_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_btn_round"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="10dp"
+            android:text="@string/go_back" />
+
+    </LinearLayout>
+
+
+</ScrollView>
